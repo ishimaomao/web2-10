@@ -2,18 +2,40 @@
 <html lang = "ja">
  <head>
  <meta charset = "utf-8">
-  <meta charset = "utf-8">
    <meta name = "viewport" content ="width=device-width, initial-scale=1, shrink-to-fit=no">
    <title>はじめてのBootstrap</title>
    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
  </head>
  <body>
+  <nav class ="nvabar navbar-expand-lg navbar-lignt bg-light">
+   <a class="navbar-brand" href="#">プロジェクト名</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls=navbarSupportedContent" aria-expanded="false" aria-label="TOggle navigation">          
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   <div class="collapse navbar-collapse id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+     <li class="nav-itm active"><a class="nav-link href="#">1つめ</a></li>
+     <li class="nav-item"><a class="nav-link" href="#2nd">2つめ</a></li>
+     <li class="nav-item"><a class="nav-link" href="#3rd">3つめ</a></li>
+    </ul>
+   </div>
+  </nav>
+      
   <div class ="container">
-   Hello!
+   <section>
+    <h1>1つめ</h1>
+      <p>1つめの文章を書きます。</p>
+      <h1 id ="2nd">2つめ</h1>
+      <p>2つめの文章を書きます。</p>
+      <h1 id ="3rd">3つめ</h1>
+      <p>3つめの文章を書きます。</p>
+  </section>
   </div>
-  
+      
   <script src="htpps://code.jquery.com/jquery-3.2.1.slim.min.js></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/poppper.js/1.11.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
  </body>
  </html>
+ 
